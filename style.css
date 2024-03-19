@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header_title{
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 600;
+    background-color: rgb(6, 149, 149);
+    color: white;
+    padding: 20px;
+}
+.box1 h3{
+     float: left;
+}
+.box1 button{
+    float: right;
+}
+h5{
+    text-align: center;
+    color: green;
+}
+h6{
+    text-align: center;
+    color: red;
+}
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.login-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.signup-container{
+    max-width: 400px;
+    padding-top:100px;
+    margin: 0 auto;
+
+}
+.signup-form{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.1);
+}
+.signup-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.nav {
+    background-color: rgb(251, 253, 253);
+    padding: 10px;
+    flex-grow: 1;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+}
+.nav ul li {
+    /* background-color: rgb(6, 149, 149); */
+    margin-bottom: 10px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+.nav ul li a:hover {
+    background-color: #ddd;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
